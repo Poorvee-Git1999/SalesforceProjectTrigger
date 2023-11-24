@@ -3,6 +3,7 @@ public class OpportunitySumHandler {
     
     {
       Set<Id> setOfAccIds = new Set<Id>();
+      Set<Id>  setOfParentId = new Set<Id>();
        for(Opportunity oppObj:newValue)
        {
            if(oppObj.Amount!=Null)
